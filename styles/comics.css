@@ -1,0 +1,177 @@
+body{
+    background-color: rgb(21, 21, 21);
+    color: white;
+    
+}
+
+p{
+    font-family: 'Coda', cursive;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Staatliches', cursive;
+}
+
+@media(max-width: 991px) {
+    .sidebar{
+        background-color: rgba(15, 14, 14, 0.367);
+        backdrop-filter: blur(10px);
+    } 
+    .siu{
+        width: 15rem;
+    }
+    /* .card-group{
+        width: 14rem;
+    } */
+    p{
+        font-size: 15px;
+    }
+
+    .comics-contenido{
+        /*  display: flex;
+         flex-direction: column;
+         justify-content: center; */
+         align-items: center;
+         width: 16rem;
+    }
+
+    .comics-muestra{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(min-width: 768px) {
+    .siu{
+        width: 20rem;
+    }
+
+    p{
+        font-size: 18px;
+    }
+
+    
+    .comics-contenido{
+        /*  display: flex;
+         flex-direction: column;
+         justify-content: center; */
+         align-items: center;
+         width: 44rem;
+     }
+ 
+    .comics-muestra{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+     }
+}
+
+@media(min-width: 576px) {
+    .comics-contenido{
+        /*  display: flex;
+         flex-direction: column;
+         justify-content: center; */
+         align-items: center;
+         width: 36rem;
+     }
+ 
+    .comics-muestra{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+     } 
+}
+
+
+
+@media(min-width: 991px) {
+    .siu{
+        width: 30rem;
+    }
+
+    .comics-contenido{
+       /*  display: flex;
+        flex-direction: column;
+        justify-content: center; */
+        align-items: center;
+        width: 55rem;
+    }
+
+    .comics-muestra{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.info-intro{
+    max-height: 340px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    max-height: 340px;
+}
+
+.si{
+    max-height: 340px;
+    margin: 0px 50px;
+}
+
+.contenido-noti-inicio{
+    padding-top: 10px;
+    margin: 10px 50px;
+    background-color: rgba(169, 169, 169, 0.069);
+    opacity: 0.90;
+    backdrop-filter: blur(10px);
+    background: linear-gradient(rgba(169, 169, 169, 0.069),rgb(170, 170, 133));
+    border: 1px solid;
+}
+
+.comics-contenido{
+    margin: 0px 50px;
+}
+
+.noti{
+    background-color: black;
+    color: rgb(243, 237, 230);
+}
+
+.comic{
+    margin: 20px;
+    background-color: rgba(215, 172, 172, 0.475);
+    background: linear-gradient(rgba(77, 64, 64, 0.475),white);
+    color: rgb(251, 248, 234);
+    box-shadow: 14px 14px 20px 0 rgba(204, 18, 18, 0.536);
+}
+
+.comic p{
+    color: rgb(112, 111, 111);
+}
+
+.conte-footer{
+    padding: 40px;
+
+}
+
+.footer-bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    max-height: 200px;
+    background-image: url(/img/fondocomic.jpg);
+    opacity: 0.60;
+}
+
+.img-footer{
+    max-height: 100px;
+}
+
+
+

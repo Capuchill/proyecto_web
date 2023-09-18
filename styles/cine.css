@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(21, 21, 21);
+    color: white;
+}
+
+p{
+    font-family: 'Coda', cursive;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Staatliches', cursive;
+}
+
+@media(max-width: 991px) {
+    .sidebar{
+        background-color: rgba(15, 14, 14, 0.367);
+        backdrop-filter: blur(10px);
+    } 
+}
+
+.info-intro{
+    max-height: 340px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    max-height: 340px;
+}
+
+.si{
+    max-height: 340px;
+    margin: 0px 50px;
+}

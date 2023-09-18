@@ -1,0 +1,167 @@
+body{
+    background-color: rgb(21, 21, 21);
+    color: white;
+}
+
+p{
+    font-family: 'Coda', cursive;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Staatliches', cursive;
+}
+
+
+@media(max-width: 991px) {
+    .sidebar{
+        background-color: rgba(15, 14, 14, 0.367);
+        backdrop-filter: blur(10px);
+    } 
+    
+    .text-biography{
+        margin: 0px 20px;
+        padding-top: 20px;
+    }
+
+    .ficha-info{
+        max-width:14rem;
+    }
+    
+}
+
+@media(min-width: 768px) {
+
+    .text-biography{
+        margin: 0px 50px;
+        padding-top: 20px;
+    }
+    
+    p{
+        font-size: 18px;
+    }
+
+    .ficha-info{
+        max-width: 25rem;
+    }
+}
+
+@media(min-width: 991px) {
+   
+    .text-biography{
+        margin: 0px 100px;
+        padding-top: 20px;
+    }
+
+    .ficha-info{
+        min-width:25rem;
+    }
+}
+
+.info-intro{
+    max-height: 340px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    max-height: 340px;
+}
+
+.si{
+    max-height: 340px;
+    margin: 0px 50px;
+}
+
+.deadpool-info-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ficha-info{
+    margin: 0px 50px;
+    background-color: rgb(96, 37, 37);
+    color: white;
+}
+
+.ficha-info ul li{
+    color: azure;
+    background-color: rgba(63, 56, 56, 0.401);
+}
+
+.contenido-biografia{
+    background-color: rgba(119, 117, 117, 0.351);
+    background: linear-gradient(black,rgba(119, 117, 117, 0.351));
+    margin: 0px 50px;
+    padding-bottom: 10px;
+    border: 1px solid grey;
+}
+
+.img-biography{
+    margin: 0px 10px;
+    padding-top: 10px;
+}
+
+.title-biography{
+    padding-top: 10px;
+}
+
+.card-group{
+    margin: 0px 50px;
+}
+
+.title-aliados{
+    margin: 20px 50px;
+}
+
+.aliado{
+    background-color: rgb(99, 99, 99);
+    background: linear-gradient(rgb(84, 83, 83),rgb(201, 196, 196));
+    margin: 10px;
+}
+
+.enemigo{
+    background-color: rgba(201, 65, 65, 0.816);
+    background: linear-gradient(rgba(123, 6, 6, 0.984),rgb(190, 129, 129));
+    margin: 10px;
+}
+
+.conte-footer{
+    padding: 40px;
+
+}
+
+.aliado:hover{
+    color: rgb(88, 83, 83);
+}
+
+.enemigo:hover{
+    color: rgb(64, 60, 60);
+}
+
+.footer-bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    max-height: 200px;
+    background-image: url(/img/fondocomic.jpg);
+    opacity: 0.60;
+}
+
+.img-footer{
+    max-height: 100px;
+}
+
+.title-conexiones{
+    background-color: rgba(152, 151, 151, 0.156);
+    padding: 10px;
+    border: 1px solid ghostwhite;
+    margin: 20px 100px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
